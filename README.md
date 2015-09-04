@@ -16,7 +16,7 @@ Example
 
 ```handlebars
 <div class="form-group">
-  <label for="timezone">Timezone</label>
+  <label for="currentMonth">Current Month</label>
   {{#datetimepicker format='MM/YYYY' keepOpen=false viewMode='months' maxDate=currentMonth}}
     <input type="text" id="currentMonth" name="currentMonth" class="form-control"
            value="{{dateFormat 'MM/YYYY' currentMonth}}">
