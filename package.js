@@ -1,6 +1,6 @@
 Package.describe({
   name: '3stack:blaze-datetimepicker',
-  version: '4.14.30_5',
+  version: '4.14.30_6',
   summary: 'A simple template helper for {{#datetimepicker}}',
   git: 'https://github.com/3stack-software/meteor-blaze-datetimepicker',
   documentation: 'README.md'
@@ -14,7 +14,7 @@ Package.onUse(function(api){
     'templating',
     'spacebars',
     'logging',
-    'tsega:bootstrap3-datetimepicker@4.7.14_4'
+    'tsega:bootstrap3-datetimepicker@4.14.30_4'
   ], 'client');
   api.addFiles([
     'datetimepicker.html',
