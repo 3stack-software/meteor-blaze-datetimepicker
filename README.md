@@ -1,4 +1,4 @@
-blaze-chosen
+blaze-datetimepicker
 --------------------------
 
 Wraps `tsega:bootstrap3-datetimepicker`, so you can just `{{#datetimepicker}}<input />{{/datetimepicker}}` and be done with it.
