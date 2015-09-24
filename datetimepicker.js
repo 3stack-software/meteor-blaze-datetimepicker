@@ -1,11 +1,3 @@
-DatetimePicker = {
-  defaults: {},
-  configurations: {},
-  configure: function(alias, configuration){
-    this.configurations[alias] = configuration;
-  }
-};
-
 Template.datetimepicker.onRendered(function(){
   var $input = this.$('input').first();
   var defaults = DatetimePicker.defaults;
